@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plavecká škola Kapřík</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dekko&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <header class="hlavicka">
+        <section class="uvod">
+            <a href="/onas/index.html"> <img class="logo" src="/images/kaprik transparent.png" alt="logo"> </a>
+
+            <a class="nadpis" href="/index.html">
+                <h1 class="plavecka">PLAVECKÁ </h1>
+                <h1 class="skola"> ŠKOLA </h1>
+                <h1 class="kaprik">KAPŘÍK </h1>
+            </a>
+
+        </section>
+
+
+        <section class="menicko">
+            <ul class="menu">
+                <div class="menu1">
+                    <li> <a href="/"> Aktuality </a> </li>
+                    <li> <a href="/onas"> O nás </a></li>
+                    <li> <a href="/kurzy"> Kurzy</a></li>
+                    <li> <a href="/terminy"> Termíny</a></li>
+                </div>
+                <div class="menu2">
+                    <li> <a href="/cenik"> Ceník</a></li>
+                    <li> <a href="/formular"> Rezervace</a></li>
+                    <li> <a href="/kontakt"> Kontakt</a></li>
+                </div>
+            </ul>
+
+
+
+        </section>
+
+
+    </header>
+    <main>
+    {{ content  | safe }}
+    </main>
+    <footer class="paticka">
+        <section class="ikonka facebook">
+            <a href="https://www.facebook.com/"> <img class="iconfb" src="/images/logo fb.png" alt="facebook"></a>
+        </section>
+
+        <section class="ikonka instagram">
+            <a href="https://www.instagram.com/?hl=cs"> <img class="iconig" src="/images/logo ig.png" alt="instagram"></a>
+        </section>
+
+        <section class="ikonka mail">
+            <section class="ikonkapaticka"><img class="mail" src="/images/mail.png" alt="mail"> </section>
+            <section class="infopaticka">info-kaprik@plavani.cz</section>
+        </section>
+
+        <section class="ikonka telefon">
+            <section class="ikonkapaticka"> <img class="tel" src="/images/phone.png" alt="telefon"></section>
+            <section class="infopaticka"> + 420 777 563 902</section>
+        </section>
+
+        <section class="ikonka adresa">
+            <section class="ikonkapaticka"> <img class="home" src="/images/house.png" alt="adresa"> </section>
+            <section class="infopaticka posledni">
+                <div class="adresa1">Infinit Step, Malletova 2350,</div>
+                <div class="adresa2"> 190 00, Praha 9</div>
+            </section>
+        </section>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,10 @@
+---
+layout: layouts/sablona.njk
+title: Úvodní stránka
+menu: aktuality
+---
+<h2> Aktuality </h2>   
+{% for novinka in collections.novinky | reverse %}
+<h3>{{ novinka.data.title }}</h3>
+<p>{{ novinka.templateContent | safe }} </p>
+{% endfor %}

@@ -1,0 +1,1102 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+ ::before,
+ ::after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #f6f8f8;
+    font-family: 'Dekko', cursive;
+    color: #012527;
+    font-size: 17px;
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+}
+
+.hlavicka {
+    background: #028F9D url(/images/uvodnifotka.jpg) no-repeat center/cover;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 720px;
+}
+
+.hlavicka h1 {
+    position: absolute;
+    color: #f6f8f8;
+    font-family: 'Dekko', cursive;
+    font-size: 50px;
+    text-shadow: 0.5px 0.5px 3px #000000;
+    font-weight: bold;
+}
+
+.plavecka {
+    left: 33%;
+    top: 1%;
+}
+
+.skola {
+    left: 40%;
+    top: 13%;
+}
+
+.kaprik {
+    left: 40%;
+    top: 26%;
+    margin-right: 10%;
+}
+
+.nadpis:hover {
+    font-style: italic;
+}
+
+.logo {
+    width: 70px;
+    position: absolute;
+    right: 40px;
+    bottom: -28px;
+}
+
+h2 {
+    margin-bottom: 0;
+}
+
+h3 {
+    font-family: 'Dekko', cursive;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+h4 {
+    margin-bottom: 0;
+}
+
+p {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu li a {
+    font-size: 30px;
+    font-family: 'Dekko', cursive;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 30px;
+    text-decoration: none;
+    text-shadow: 0.5px 0.5px 8px #FFFFFF;
+    color: #012527;
+}
+
+.menu {
+    padding-top: 350px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 0;
+    margin-right: 25%;
+    margin-left: 25%;
+    margin-top: 0;
+    text-align: center;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100%x;
+}
+
+.menicko {
+    height: 50px;
+    margin: 0;
+}
+
+.posledni {
+    margin-bottom: 10px;
+}
+
+.adresa2 {
+    text-align: center;
+}
+
+.paticka {
+    background-color: #012527;
+    color: #f6f8f8;
+    display: flex;
+    font-family: 'Dekko', cursive;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15%;
+    padding-right: 15%;
+    width: 100%;
+    flex-direction: column;
+}
+
+.paticka a {
+    color: #f6f8f8;
+}
+
+.paticka img {
+    height: 40px;
+    margin: 10px;
+}
+
+.ikonka {
+    flex-grow: 1;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+
+main {
+    margin-top: 0;
+    margin-bottom: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+main h4 {
+    text-align: right;
+}
+
+.aktuality h2 {
+    text-align: center;
+}
+
+
+/* O nas */
+
+.foto {
+    width: 180px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 7px grey;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.trener {
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 0;
+    flex-direction: column;
+}
+
+.trener h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+.popistrenera p {
+    margin-left: 40px;
+    padding-top: 30px;
+}
+
+.tym h2 {
+    margin-bottom: 0;
+}
+
+
+/* Fotogalerie rozcestnik */
+
+.fotogaleriealbum {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 900px;
+    min-width: 100px;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+}
+
+.fotogalerie {
+    width: 200px;
+    height: 140px;
+    margin-bottom: 30px;
+    border-radius: 3%;
+    box-shadow: 2px 2px 7px grey;
+}
+
+
+/* Kurzy */
+
+.imgkojenci,
+.imgpredskolaci {
+    width: 180px;
+    border-radius: 3%;
+    box-shadow: 2px 2px 7px grey;
+}
+
+.imgkojenci,
+.imgpredskolaci {
+    margin-bottom: 10px;
+}
+
+.infopredskolaci,
+.infokojenci {
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.obrazekkojenci {
+    order: 0;
+}
+
+.textkojenci {
+    order: 1;
+}
+
+.kojenci h2,
+.kojenci h3,
+.predskolaci h2,
+.predskolaci h3 {
+    text-align: center;
+}
+
+.kurzyodkazy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 40%;
+    margin-top: 0;
+    margin-bottom: 60px;
+    flex-direction: column;
+}
+
+.odkaz a {
+    color: #f6f8f8;
+    font-size: 19px;
+    text-decoration: none;
+    background-color: #028F9D;
+    border: 0.5px solid #012527;
+    border-radius: 5%;
+    padding: 7px;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.odkaz a:hover {
+    color: #f6f8f8;
+    background-color: #055258;
+    text-decoration: none;
+}
+
+.odkaz a:visited {
+    color: #f6f8f8;
+    text-decoration: none;
+}
+
+
+/* Termíny */
+
+.terminy h2,
+.rozvrhpredskolaci h3,
+.rozvrhkojenci h3 {
+    text-align: center;
+}
+
+.terminy p {
+    text-align: justify;
+}
+
+.terminykurzu {
+    text-align: center;
+}
+
+.rozvrhkojenci table,
+.rozvrhpredskolaci table {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-right: 10px;
+    border-collapse: collapse;
+    border-style: hidden;
+    color: #012527;
+    font-size: 15px;
+    text-shadow: 0.1px 0.1px 0.5px #000000;
+}
+
+.rozvrhkojenci td,
+.rozvrhkojenci th,
+.rozvrhpredskolaci td,
+.rozvrhpredskolaci th {
+    border-right: 2px solid #012527;
+    padding: 6px;
+}
+
+.rozvrhkojenci th,
+.rozvrhpredskolaci th,
+.den {
+    color: #028F9D;
+    font-weight: bold;
+}
+
+.rozvrhkojenci tr,
+.rozvrhpredskolaci tr {
+    border: 2px solid #012527;
+}
+
+.typkurzu {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 7px;
+}
+
+
+/* Cenik */
+
+.cenik h2 {
+    text-align: center;
+}
+
+.lekce {
+    margin-right: 60px;
+}
+
+.cenikkojenci table,
+.cenikpredskolaci table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cara {
+    display: none;
+}
+
+.cenikkojenci {
+    margin-top: 15px;
+}
+
+.cenikpredskolaci,
+.cenikkojenci {
+    margin-bottom: 30px;
+}
+
+.kontaktvceniku {
+    color: #012527;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.kontaktvceniku:hover {
+    color: #012527;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.kontaktvceniku:visited {
+    color: #012527;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.instrukcekplatbe ul {
+    padding-left: 15px;
+}
+
+.instrukcekplatbe ul li {
+    padding-bottom: 5px;
+}
+
+
+/* Potvrzeni formulare */
+
+.potvrzeniformulare h2,
+.potvrzeniformulare h3 {
+    text-align: center;
+}
+
+.potvrzeniformulare {
+    margin-bottom: 300px;
+}
+
+.logokaprika {
+    margin-top: 30px;
+    margin-left: 35%;
+    width: 300px;
+}
+
+
+/* Kontakt */
+
+.adresasmapou h4 {
+    text-align: left;
+}
+
+.adresasmapou {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.popiscesty,
+.kontakt {
+    text-align: center;
+}
+
+.kde {
+    text-align: center;
+}
+
+.doprava {
+    text-align: justify;
+}
+
+.kontakt h2,
+.kontakt h3,
+.kontakt h4,
+.adresasmapou h2,
+.adresasmapou h3,
+.adresasmapou h4,
+.parkovani h2,
+.parkovani h3,
+.parkovani h4 {
+    text-align: center;
+}
+
+.popiscesty {
+    margin-top: 0;
+}
+
+.popiscesty h4 {
+    margin-top: 0;
+}
+
+.mapa {
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.mapastyle {
+    border-radius: 5%;
+    flex-basis: 50%;
+}
+
+.parkovani {
+    margin-top: 10px;
+}
+
+.kontakt h2 {
+    margin-bottom: 10px;
+}
+
+
+/* Rezervace */
+
+.formular {
+    padding-left: 2%;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    border: 2px solid #012527;
+    border-radius: 2%;
+    width: 70%;
+    min-width: 250px;
+    padding-bottom: 10px;
+    background-color: #d2f0f3;
+}
+
+.rezervace {
+    text-align: center;
+}
+
+.zkusenostiinfo {
+    font-style: italic;
+}
+
+.formular h3 {
+    margin-top: 20px;
+    text-decoration: underline;
+}
+
+.formular label {
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    text-align: left;
+}
+
+.formular input {
+    margin-left: 15px;
+}
+
+.formular input,
+textarea {
+    padding: 4px;
+    font-family: 'Dekko', cursive;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 87%;
+}
+
+.input:focus {
+    outline: 2px solid #012527;
+}
+
+select {
+    width: 90%;
+    min-width: 180px;
+    max-width: 300px;
+    padding: 3px;
+    font-family: 'Dekko', cursive;
+    font-size: 16px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.celyformular button {
+    margin-top: 10px;
+    font-family: 'Dekko', cursive;
+    color: #f6f8f8;
+    font-size: 19px;
+    text-decoration: none;
+    padding: 7px;
+}
+
+.celyformular button:hover {
+    color: #f6f8f8;
+    background-color: #055258;
+    text-decoration: none;
+}
+
+.celyformular button:visited {
+    color: #f6f8f8;
+    text-decoration: none;
+}
+
+.celyformular button {
+    border-radius: 5%;
+    border: 0.5px solid #012527;
+    background-color: #028F9D;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.jmenoditete,
+.prijmeniditete,
+.datumnarozeni,
+.jmenorodice,
+.prijmenirodice,
+.telefon,
+.email {
+    display: flex;
+}
+
+.prvni label {
+    margin-right: 0;
+}
+
+
+/* Fotogalerie priblizeni*/
+
+.fotka {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fotky {
+    display: flex;
+    margin-top: 20px;
+}
+
+.dalsi,
+.predchozi {
+    background-color: #028F9D;
+    color: #f6f8f8;
+    font-size: 50px;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    height: 5%;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 10%;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.dalsi:hover,
+.predchozi:hover {
+    text-decoration: none;
+}
+
+.dalsi:visited,
+.predchozi:visited {
+    text-decoration: none;
+}
+
+.sipkazpet {
+    width: 40px;
+    background-color: #028F9D;
+    border-radius: 10%;
+}
+
+.zmizet {
+    opacity: 0;
+}
+
+.dvanactka {
+    margin-top: 4%;
+}
+
+@media screen and (min-width: 640px) {
+    .hlavicka {
+        height: 420px;
+    }
+    .hlavicka h1 {
+        text-shadow: 0.3px 0.3px 5px #000000;
+    }
+    .plavecka {
+        left: 5%;
+        top: 5%;
+    }
+    .skola {
+        left: 45%;
+        top: 5%;
+    }
+    .kaprik {
+        left: 75%;
+        top: 5%;
+    }
+    .logo {
+        right: 15px;
+        padding-left: 10px;
+    }
+    .menu li a {
+        font-size: 20px;
+        color: #f6f8f8;
+        text-shadow: 0.5px 0.5px 5px #000000;
+        display: inline-block;
+        height: 60px;
+        width: 100%;
+    }
+    .menu li a:hover {
+        color: #012527;
+        border-top: 2px solid #000000;
+        text-shadow: none;
+    }
+    .menu {
+        padding-top: 300px;
+        align-items: center;
+        display: flex;
+    }
+    .menu1,
+    .menu2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-grow: 1;
+        min-width: 500px;
+    }
+    .menu1 {
+        width: 65%;
+    }
+    .menu2 {
+        width: 35%;
+    }
+    .menu1 li a {
+        margin-right: 7%;
+    }
+    .menu2 li a {
+        margin-right: 7%;
+    }
+    .paticka {
+        padding-left: 0;
+        padding-right: 0;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .ikonka {
+        flex-direction: column;
+        align-items: justify;
+    }
+    .mail,
+    .telefon {
+        margin-top: 27px;
+    }
+    .adresa {
+        margin-top: 60px;
+    }
+    main {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .aktuality h2 {
+        text-align: justify;
+    }
+    /* O nas */
+    .foto {
+        display: inline;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .trener {
+        flex-direction: row;
+    }
+    .trener h3 {
+        margin-bottom: 15px;
+    }
+    .popistrenera p {
+        padding-top: 40px;
+    }
+    .tym h2 {
+        margin-bottom: 0;
+    }
+    /* Fotogalerie rozcestnik */
+    .fotogalerie {
+        width: 200px;
+        height: 140px;
+        margin-bottom: 30px;
+        border-radius: 3%;
+        box-shadow: 2px 2px 7px grey;
+    }
+    /* Kurzy */
+    .imgkojenci {
+        margin-left: 30px;
+        margin-top: 14px;
+    }
+    .imgpredskolaci {
+        margin-right: 30px;
+        margin-top: 14px;
+    }
+    .obrazekkojenci {
+        order: 1;
+    }
+    .infopredskolaci,
+    .infokojenci {
+        flex-direction: row;
+        align-items: start;
+    }
+    .kojenci h2,
+    .kojenci h3,
+    .predskolaci h2,
+    .predskolaci h3 {
+        text-align: justify;
+    }
+    .kurzyodkazy {
+        margin-top: 40px;
+        flex-direction: row;
+    }
+    .odkaz a {
+        margin: 7px;
+    }
+    /* Termíny */
+    .terminy h2,
+    .rozvrhkojenci h3,
+    .rozvrhpredskolaci h3 {
+        text-align: justify;
+    }
+    /* Cenik */
+    .cenik h2 {
+        text-align: justify;
+    }
+    .lekce {
+        margin-right: 0;
+    }
+    .cara {
+        display: block;
+    }
+    /* Kontakt */
+    .adresasmapou h4 {
+        text-align: left;
+    }
+    .adresasmapou {
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .popiscesty {
+        margin-top: 0;
+        text-align: justify;
+    }
+    .kde {
+        text-align: justify;
+    }
+    .kontakt h2,
+    .kontakt h3,
+    .kontakt h4,
+    .adresasmapou,
+    .adresasmapou h3,
+    .adresasmapou h4,
+    .parkovani h2,
+    .parkovani h3,
+    .parkovani h4,
+    .kde,
+    .kontakt {
+        text-align: justify;
+    }
+    /* Rezervace */
+    .formular {
+        min-width: 300px;
+        max-width: 430px;
+    }
+    .rezervace {
+        text-align: justify;
+    }
+    .formular input,
+    select {
+        margin-left: 15px;
+    }
+    .formular input,
+    textarea {
+        width: 80%;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .kurzdatum select,
+    .kurzvek select {
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    .hlavicka {
+        height: 400px;
+    }
+    .hlavicka h1 {
+        text-shadow: 0.3px 0.3px 5px #000000;
+    }
+    .plavecka {
+        left: 3%;
+        top: 5%;
+    }
+    .skola {
+        left: 12%;
+        top: 25%;
+    }
+    .kaprik {
+        left: 17%;
+        top: 45%;
+    }
+    .logo {
+        right: 15px;
+    }
+    .menu li {
+        list-style: none;
+    }
+    .menu li a {
+        color: #f6f8f8;
+        font-size: 20px;
+        font-family: 'Dekko', cursive;
+        text-align: center;
+        font-weight: bold;
+        padding: 10px 30px;
+        text-decoration: none;
+        text-shadow: 0.5px 0.5px 5px #000000;
+    }
+    .menu li a:hover {
+        color: #012527;
+        border-top: 2px solid #000000;
+        text-shadow: none;
+    }
+    .menu {
+        padding-top: 340px;
+        padding-left: 20px;
+        padding-right: 0;
+        margin-right: 20px;
+        margin-left: 50px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    .menu1 {
+        flex-basis: 35%;
+        flex-shrink: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-grow: 1;
+        min-width: 20%;
+        max-width: 53%;
+    }
+    .menu2 {
+        max-width: 47%;
+        min-width: 20%;
+        padding-left: 3%;
+        flex-basis: 5%;
+        flex-shrink: 1;
+        flex-grow: 1;
+        padding-right: 50px;
+    }
+    .menicko {
+        height: 50px;
+    }
+    .paticka {
+        padding-left: 0;
+        padding-right: 0;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .ikonka {
+        flex-direction: row;
+        align-items: center;
+    }
+    .mail,
+    .telefon {
+        margin-top: 0;
+    }
+    .adresa {
+        margin-top: 0;
+    }
+    .infopaticka {
+        display: flex;
+    }
+    main {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .aktuality h2 {
+        text-align: justify;
+    }
+    /* O nas */
+    .foto {
+        display: inline;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .trener {
+        flex-direction: row;
+    }
+    .trener h3 {
+        margin-bottom: 15px;
+    }
+    .popistrenera p {
+        padding-top: 90px;
+    }
+    .tym h2 {
+        margin-bottom: 0;
+    }
+    /* Fotogalerie rozcestnik */
+    .fotogalerie {
+        width: 200px;
+        height: 140px;
+        margin-bottom: 30px;
+        border-radius: 3%;
+        box-shadow: 2px 2px 7px grey;
+    }
+    /* Kurzy */
+    .imgkojenci {
+        margin-left: 30px;
+    }
+    .imgpredskolaci {
+        margin-right: 30px;
+    }
+    .obrazekkojenci {
+        order: 1;
+    }
+    .infopredskolaci,
+    .infokojenci {
+        flex-direction: row;
+        align-items: center;
+    }
+    .kojenci h2,
+    .kojenci h3,
+    .predskolaci h2,
+    .predskolaci h3 {
+        text-align: justify;
+    }
+    .kurzyodkazy {
+        margin-top: 40px;
+        flex-direction: row;
+    }
+    .odkaz a {
+        margin: 7px;
+    }
+    /* Termíny */
+    .terminy h2,
+    .rozvrhkojenci h3,
+    .rozvrhpredskolaci h3 {
+        text-align: justify;
+    }
+    .terminykurzu {
+        text-align: justify;
+        margin-left: 40px;
+    }
+    /* Cenik */
+    .cenik h2 {
+        text-align: justify;
+    }
+    .lekce {
+        margin-right: 0;
+    }
+    .cara {
+        display: block;
+    }
+    .cenikkojenci table,
+    .cenikpredskolaci table {
+        margin-left: 40px;
+    }
+    /* Kontakt */
+    .adresasmapou h4 {
+        text-align: left;
+    }
+    .adresasmapou {
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    .popiscesty {
+        margin-top: 0;
+        text-align: justify;
+    }
+    .kde {
+        text-align: justify;
+    }
+    .kontakt h2,
+    .kontakt h3,
+    .kontakt h4,
+    .adresasmapou h2,
+    .adresasmapou h3,
+    .adresasmapou h4,
+    .parkovani h2,
+    .parkovani h3,
+    .parkovani h4,
+    .kontakt {
+        text-align: justify;
+    }
+    /* Rezervace */
+    .formular {
+        min-width: 300px;
+        max-width: 430px;
+    }
+    .rezervace {
+        text-align: justify;
+    }
+    .formular input,
+    select {
+        margin-left: 15px;
+    }
+    .formular input,
+    textarea {
+        width: 80%;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .kurzdatum select,
+    .kurzvek select {
+        width: 90%;
+    }
+}
