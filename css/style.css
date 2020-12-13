@@ -34,22 +34,22 @@ body {
     font-size: 50px;
     text-shadow: 0.5px 0.5px 3px #000000;
     font-weight: bold;
+    text-align: center;
 }
 
 .plavecka {
-    left: 33%;
     top: 1%;
+    left: 25%
 }
 
 .skola {
-    left: 40%;
     top: 13%;
+    left: 35%
 }
 
 .kaprik {
-    left: 40%;
     top: 26%;
-    margin-right: 10%;
+    left: 35%
 }
 
 .nadpis:hover {
@@ -199,8 +199,9 @@ main h4 {
 }
 
 .popistrenera p {
-    margin-left: 40px;
     padding-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .tym h2 {
@@ -330,6 +331,10 @@ main h4 {
     color: #012527;
     font-size: 15px;
     text-shadow: 0.1px 0.1px 0.5px #000000;
+}
+
+.rozvrhpredskolaci table {
+    font-size: 10px;
 }
 
 .rozvrhkojenci td,
@@ -482,12 +487,14 @@ main h4 {
 
 .mapa {
     margin-top: 20px;
-    margin-right: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
 }
 
 .mapastyle {
     border-radius: 5%;
-    flex-basis: 50%;
+    flex-basis: 55%;
 }
 
 .parkovani {
@@ -665,6 +672,21 @@ select {
     margin-top: 4%;
 }
 
+@media screen and (min-width: 445px) {
+    .plavecka {
+        top: 1%;
+        left: 32%
+    }
+    .skola {
+        top: 13%;
+        left: 39%
+    }
+    .kaprik {
+        top: 26%;
+        left: 39%
+    }
+}
+
 @media screen and (min-width: 640px) {
     .hlavicka {
         height: 420px;
@@ -764,6 +786,7 @@ select {
     }
     .popistrenera p {
         padding-top: 40px;
+        margin-left: 40px;
     }
     .tym h2 {
         margin-bottom: 0;
@@ -812,6 +835,9 @@ select {
     .rozvrhpredskolaci h3 {
         text-align: justify;
     }
+    .rozvrhpredskolaci table {
+        font-size: 15px;
+    }
     /* Cenik */
     .cenik h2 {
         text-align: justify;
@@ -849,6 +875,10 @@ select {
     .kde,
     .kontakt {
         text-align: justify;
+    }
+    .mapa {
+        margin-top: 20px;
+        margin-left: 0%;
     }
     /* Rezervace */
     .formular {
