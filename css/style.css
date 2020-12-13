@@ -494,7 +494,8 @@ main h4 {
 
 .mapastyle {
     border-radius: 5%;
-    flex-basis: 55%;
+    min-width: 300px;
+    min-height: 250px;
 }
 
 .parkovani {
@@ -879,6 +880,10 @@ select {
     .mapa {
         margin-top: 20px;
         margin-left: 0%;
+    }
+    .mapastyle {
+        min-width: 400px;
+        min-height: 280px;
     }
     /* Rezervace */
     .formular {
