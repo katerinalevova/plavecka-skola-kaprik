@@ -490,12 +490,14 @@ main h4 {
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 20px;
+    flex-basis: 55%;
 }
 
 .mapastyle {
     border-radius: 5%;
     min-width: 300px;
     min-height: 250px;
+    flex-basis: 55%;
 }
 
 .parkovani {
@@ -880,6 +882,7 @@ select {
     .mapa {
         margin-top: 20px;
         margin-left: 0%;
+        margin-right: 10px;
     }
     .mapastyle {
         min-width: 400px;
